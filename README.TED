@@ -1,0 +1,11 @@
+This version of XV6 is a fork of https://github.com/mit-pdos/xv6-public with
+a handful of tweaks by Ted Cowan for use in his CS 3100 Operating Systems
+class, taught at Weber State University.
+
+CS 3100 students should clone this repository and follow the instructions
+in the Lab writeups that require XV6.
+
+Ted Cowan
+Instructor, Advisor, Computer Science Department
+Weber State University
+tedcowan@weber.edu
