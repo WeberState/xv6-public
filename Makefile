@@ -166,6 +166,7 @@ UPROGS=\
 	_ln\
 	_ls\
 	_mkdir\
+	_peep\
 	_rm\
 	_sh\
 	_stressfs\
@@ -173,8 +174,8 @@ UPROGS=\
 	_wc\
 	_zombie\
 
-fs.img: mkfs README $(UPROGS)
-	./mkfs fs.img README $(UPROGS)
+fs.img: mkfs HELP README README.TED $(UPROGS)
+	./mkfs fs.img HELP README README.TED $(UPROGS)
 
 -include *.d
 
